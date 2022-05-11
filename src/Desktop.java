@@ -10,13 +10,16 @@ public class Desktop implements HardWare,SoftWare {
 
 	@Override
 	public void hardWareResources() {
-		System.out.println("Hardware Resource");
+		System.out.println("Branch A");
 		
 	}
 	public void desktopModel() {
 		
 		System.out.println("Desktop Model");
 		
+	}
+	public void branchA() {
+System.out.println("Branch A is updated");
 	}
 
 	public static void main(String[] args) {
