@@ -13,7 +13,7 @@ public class Desktop implements HardWare,SoftWare {
 		System.out.println("Hardware Resource");
 		
 	}
-	public void desktopModel() {
+	public void branchB() {
 		
 		System.out.println("Desktop Model");
 		
@@ -24,7 +24,7 @@ public class Desktop implements HardWare,SoftWare {
 		Desktop e = new Desktop();
 		e.softWareResources();
 		e.hardWareResources();
-		e.desktopModel();
+		e.branchB();
 	}
 }
 
